@@ -87,6 +87,10 @@ public class PlayerInteract : MonoBehaviour
         {
             Debug.Log("throwForce");
             gObject.GetComponent<Rigidbody>().AddForce(mainCamera.transform.forward * throwForce);
+            if (gObject.GetComponent<Destructable>() != null)
+            {
+                gObject.GetComponent<Destructable>().MakeDestructable();
+            }
         }
     }
 
