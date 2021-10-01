@@ -532,12 +532,11 @@ MonoBehaviour:
   - {fileID: 1666423205118316686, guid: d97bc6862a2b4db40bb81fff7d20c7d3, type: 3}
   closedRoom: {fileID: 6272835668452598568, guid: cb7934be698d2f44ab78f6abc296410a, type: 3}
   OpenRoom: {fileID: 1666423205118316686, guid: d97bc6862a2b4db40bb81fff7d20c7d3, type: 3}
-  SingleRooms:
-  - {fileID: 874155714765329276, guid: 3193bdeeab4fc7c46b6f9aafdec6d19d, type: 3}
-  - {fileID: 723346979269930228, guid: c6a625a0a3f46d6478938c3122da4954, type: 3}
-  - {fileID: 9068364959544067279, guid: 3c45da1fa32677d43b317d9187c5e97b, type: 3}
-  - {fileID: 5710285428045160544, guid: 9f48923c7428c4d4ea71d227d65c00ef, type: 3}
-  MaxSize: 100
+  OpenBottom: {fileID: 874155714765329276, guid: 3193bdeeab4fc7c46b6f9aafdec6d19d, type: 3}
+  OpenTop: {fileID: 5710285428045160544, guid: 9f48923c7428c4d4ea71d227d65c00ef, type: 3}
+  OpenLeft: {fileID: 723346979269930228, guid: c6a625a0a3f46d6478938c3122da4954, type: 3}
+  OpenRight: {fileID: 9068364959544067279, guid: 3c45da1fa32677d43b317d9187c5e97b, type: 3}
+  MaxSize: 500
   rooms: []
 --- !u!4 &866940890
 Transform:
