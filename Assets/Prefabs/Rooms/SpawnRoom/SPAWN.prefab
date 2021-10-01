@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 4312904212843866849}
   m_Layer: 6
   m_Name: SPAWN
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

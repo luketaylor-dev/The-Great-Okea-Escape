@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 4
+  rand: 0
 --- !u!54 &4449372358991264684
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -121,6 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 3
+  rand: 0
 --- !u!65 &6272523844440980130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -196,6 +198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 2
+  rand: 0
 --- !u!54 &356465338141890048
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -240,7 +243,7 @@ GameObject:
   - component: {fileID: 7926865926528824367}
   m_Layer: 6
   m_Name: BLR
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
